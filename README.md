@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="header_image"/>
+  <img src="https://i.imgur.com/HDtcLAz.png" alt="header_image"/>
 </p>
 
 <h2>Password Generator</h2>
