@@ -4,7 +4,7 @@
 
 <h2>Password Generator</h2>
 
-This password generator will create a random password using letters (upper and lower case), symbols, and numbers. The program will specifically ask the user the length of characters from each of the 3 categories.
+This password generator will create a random password using letters (upper and lower case), symbols, and numbers. The program will specifically ask the user the length of characters that the user wishes to use from each of the 3 categories.
 
 <h3>Code structure</h3>
 
@@ -13,7 +13,7 @@ I created 3 lists where the program can randomly choose characters from:
 >numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']</br>
 >symbols = ['!', '@', '#', '$', '%', '^', '&', '(', ')', '*', '+']</br>
 
-First I created a function to get user input on the number of characters and then pass that function into a variable. This function also serves to catch invalid user inputs. This function would be called when asking the user the length of characters they wish to use for: letters, symbols, and numbers. If input is valid, it passes that value into a variable which will later be used in a range function. If input is invalid such as a negative number or something other than a number, it would loop the question until a valid input is entered. 
+Next, I created a function to get user input on the length of characters and then pass that function into a variable. This function also serves to catch invalid inputs until a valid input is made. This function is called when the programs asks the user the length of characters they wish to use for letters, then again for symbols, and once again for numbers. The input is passed into a variable which will later be used in a range function. If input is invalid such as a negative number or something other than a number, it would loop the question until a valid input is entered. 
 
 Next, I used a for-loop with a range function with variable from user input as the parameter of the range (number of characters). With each iteration of the loop (each number in the range), the computer would choose a random character from the respective list until it met user requirements on the length (range). Each time the computer chose a random character, it was added to a running list (password list). This loop was used for each question, for the number of letters, symbols, and numbers. Once computer randomly chose all the characters for the password then the running list (password list) was complete.
 
