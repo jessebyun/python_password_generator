@@ -4,7 +4,7 @@
 
 <h2>Password Generator</h2>
 
-This password generator will ask the user specifically the number of letters, number of symbols, and the number of numbers as the input for a random password. 
+This password generator will create a random password using letters (upper and lower case), symbols, and numbers. The program will specifically ask the user the length of characters from each of the 3 categories.
 
 <h3>Code structure</h3>
 
