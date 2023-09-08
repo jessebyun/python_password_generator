@@ -13,7 +13,7 @@ I created 3 lists where the program can randomly choose characters from:
 >numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']</br>
 >symbols = ['!', '@', '#', '$', '%', '^', '&', '(', ')', '*', '+']</br>
 
-Next, I created a function which is called when asking the user the length of characters user wants from letters, from symbols, and finally from numbers. This function also serves to catch invalid inputs until a valid input is made. This input is passed into a variable which will later be used in a range function.
+Next, I created a function which is called upon when asking the user the length of characters user wants from letters, from symbols, and finally from numbers. This function also serves to catch invalid inputs until a valid input is made. This input is passed into a variable which will later be used in a range function.
 
 Next, I used a for-loop with a range function with the parameter from the user input variable (number of characters). With each iteration of the loop (each number in the range), the computer would choose a random character from the respective lists until it met user requirements on the length (range). Each time the computer chose a random character, it was added to a running list (password list). This loop was used for each question: the length of letters, length of symbols, and the length of numbers. Once computer randomly chose all the characters for the password, then the running lis was complete.
 
