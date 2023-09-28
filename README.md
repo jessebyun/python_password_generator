@@ -21,4 +21,4 @@ Next, I used the shuffle function to scramble the password list. With all lists,
 
 <br/>
 
-<img src="https://i.imgur.com/s2CqbJr.png" alt="image"/>
+<img src="https://i.imgur.com/JrJXNRR.png" alt="image"/>
